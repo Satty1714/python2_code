@@ -1,0 +1,36 @@
+comments_dict = {'case_num':'comment','case_num':'comm',.....}
+need_comments_dict = {'case_number':['case_num:123','comment','',...],....}
+
+comms_list = [['case_num:123','comment','',...],[],[]....]
+case_comments = [['dear xxx']]
+new_list = [[message]]
+lists = [message,message]
+
+现有 name number message related_crs case_owner case_comments
+
+格式:
+
+<State name="MSG_03461145_20180828_110208_52" mode="and" output="03461145">
+	</Message>
+		Can you please modify the mcfg_sel.c file as per following comments and provide us another log please?
+		For example your own mcfg_sel.c file, mcfg_uim file etc?
+	</Message>
+</State>
+
+流程：
+   传参形式运行代码：
+    1.传入原始数据".xls"后开始解析
+    函数GetComments获得 comments_dict = {'case_num':'comment','case_num':'comm',.....}
+    函数GetNeedComments筛选出符合条件的 need_comments_dict = {'case_number':['case_num:123','comment','',...],....}
+    然后将 need_comments_dict的values 放入一个列表里 comms_list = [['Case Number:123','comment','',...],[],[]....]
+    然后开始创建生成txt文件 CreateExl函数 --> GetNew_list函数 得到所有符合条件的message组成一个二维列表new_list,
+    降维lists都判断信息是否超过十条,ProduceTXT生成txt标准格式 produce_info_list,然后将单列表添加到新列表生成二维列表.
+    WriteTxt函数将内容写到txt
+
+    2.传入".txt"生成xml文件
+        ReadTxt 读取txt文件内容 放到一个列表
+        ProduceXML 函数 生成xml标准格式
+        WriteXML 写到xml中生成xml文件
+
+
+

@@ -1,0 +1,1641 @@
+__NAME__: MSG_03747320_20181126_135741_0
+__CASE NUMBER__: 03747320
+__MESSAGE__:
+		[10255/0002]             00:08:54.181             TDSCDMA RRC/High         [          tdsrrcdt.c   8755] Sent RRC_DATA_IND to the MM
+__CASE ID__: 5003A00000sXTBD
+__OWNER__: Wei Dong
+__MAIL__: weid
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+
+感觉上是仪表发了下面这条消息之后，UE没有回响应，超时导致仪表关闭下行信号，但是log没有NAS消息，看不出具体原因。
+[0xD0E3/003/005]         00:08:54.181             DCCH DL/Downlink Direct TransferRadio Bearer ID: 3, Length: 321
+[10255/0002]             00:08:54.181             TDSCDMA RRC/High         [          tdsrrcdt.c   8755] Sent RRC_DATA_IND to the MM
+
+[10251/0002]             00:08:59.097             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 32767, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7323
+[10251/0002]             00:08:59.107             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 32767, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7325
+[10251/0002]             00:08:59.117             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality -2847, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7327
+[10251/0002]             00:08:59.127             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 819, tdm_indicator 1, deSensedInd 0,sb idicator is 0,punctured_ind is 0,fetSuspensionInd is 0,tfci is 2, suf_sfn is 7329
+[10251/0002]             00:08:59.137             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality -4096, tdm_indicator 1, deSensedInd 0,sb idicator is 0,punctured_ind is 0,fetSuspensionInd is 0,tfci is 2, suf_sfn is 7331
+
+请重新提供一个用default.dmc抓的log。
+
+Thanks
+
+************************************************************
+__NAME__: MSG_03747320_20181126_135741_99
+__CASE NUMBER__: 03747320
+__MESSAGE__:
+		[10251/0002]             00:08:59.097             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 32767, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7323
+		[10251/0002]             00:08:59.107             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 32767, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7325
+		[10251/0002]             00:08:59.117             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality -2847, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7327
+		[10251/0002]             00:08:59.127             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 819, tdm_indicator 1, deSensedInd 0,sb idicator is 0,punctured_ind is 0,fetSuspensionInd is 0,tfci is 2, suf_sfn is 7329
+		[10251/0002]             00:08:59.137             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality -4096, tdm_indicator 1, deSensedInd 0,sb idicator is 0,punctured_ind is 0,fetSuspensionInd is 0,tfci is 2, suf_sfn is 7331
+__CASE ID__: 5003A00000sXTBD
+__OWNER__: Wei Dong
+__MAIL__: weid
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+
+感觉上是仪表发了下面这条消息之后，UE没有回响应，超时导致仪表关闭下行信号，但是log没有NAS消息，看不出具体原因。
+[0xD0E3/003/005]         00:08:54.181             DCCH DL/Downlink Direct TransferRadio Bearer ID: 3, Length: 321
+[10255/0002]             00:08:54.181             TDSCDMA RRC/High         [          tdsrrcdt.c   8755] Sent RRC_DATA_IND to the MM
+
+[10251/0002]             00:08:59.097             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 32767, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7323
+[10251/0002]             00:08:59.107             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 32767, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7325
+[10251/0002]             00:08:59.117             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality -2847, tdm_indicator 1, deSensedInd 0,sb idicator is 1,punctured_ind is 0,fetSuspensionInd is 0,tfci is 0, suf_sfn is 7327
+[10251/0002]             00:08:59.127             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality 819, tdm_indicator 1, deSensedInd 0,sb idicator is 0,punctured_ind is 0,fetSuspensionInd is 0,tfci is 2, suf_sfn is 7329
+[10251/0002]             00:08:59.137             TDSCDMA L1/High          [     tdsdltrchmeas.c    831]  DCH sync burst_quality -4096, tdm_indicator 1, deSensedInd 0,sb idicator is 0,punctured_ind is 0,fetSuspensionInd is 0,tfci is 2, suf_sfn is 7331
+
+请重新提供一个用default.dmc抓的log。
+
+Thanks
+
+************************************************************
+__NAME__: MSG_03727758_20181126_135742_04
+__CASE NUMBER__: 03727758
+__MESSAGE__:
+		06:36:52.331    mmgsdi_cnf.c    3265    H    USIM Auth Fail, status d    
+		06:36:52.331    emm_security.c    1667    H    DS: SUB 2 =EMM= Sending AUTHENTICATION FAILURE message   
+__CASE ID__: 5003A00000s6piQ
+__OWNER__: Meng Liu
+__MAIL__: liumeng
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Hi UIM team,
+
+Could you help check the auth failure reported from UIM? 
+
+06:36:52.331    mmgsdi_cnf.c    3265    H    USIM Auth Fail, status d    
+06:36:52.331    emm_security.c    1667    H    DS: SUB 2 =EMM= Sending AUTHENTICATION FAILURE message   
+
+Thanks,
+Chengcheng
+
+************************************************************
+__NAME__: MSG_03732461_20181126_135742_1
+__CASE NUMBER__: 03732461
+__MESSAGE__:
+		 5052 00210043 07:31:06.478                 PDPManager.cpp    1501  H Sub-ID:1    EventChangeRat - New RAT is 10 and is valid: 1
+		 5070 00210174 07:31:06.481         PDPRATHandlerVoLTE.cpp    2641  E Sub-ID:1    PdpActivate set pref wwan  RegType[0]
+		 5071 00210180 07:31:06.481                        qpDcm.c    7597  E Sub-ID:1    qpDcmEstablishPDPConnection - pDcmConnProfile --&gt; 0x8e96e70 | InstanceID --&gt; 1
+		 5072 00210181 07:31:06.481                        qpDcm.c    7600  M Sub-ID:1    IMS_APP#&gt;&gt;#DPL_M#0#qpDcmEstablishPDPConnection
+		 5076 00210184 07:31:06.481                        qpDcm.c    7730  H Sub-ID:1    qpDcmEstablishPDPConnection - 3GPP ProfileNumber --&gt; 2 | 3GPP2 ProfileNumber --&gt; -1 | IPType --&gt; 2
+		 5077 00210208 07:31:06.493                        qpDcm.c    7737  H Sub-ID:1    DPL_M#$$#0#qpDcmEstablishPDPConnection - DS_EWOULDBLOCK on dsnet_start
+__CASE ID__: 5003A00000s79c8
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: //LTE available
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+For bellow question, that's because LTE is avialble before WIFI, so IMS tries to regiser on LTE, after WIFI signal became good, HO register to WIFI. since it's regisered on LTE, it'll not HO to WIFI immediately to avoid ping-pong. this is an expected behavior.
+第2次D2T wifi连接比A9慢，先注册VOLTE，30sec后才注册vowifi. 
+
+//LTE available
+ 5052 00210043 07:31:06.478                 PDPManager.cpp    1501  H Sub-ID:1    EventChangeRat - New RAT is 10 and is valid: 1
+
+
+//start setup PDP over LTE and register
+ 5070 00210174 07:31:06.481         PDPRATHandlerVoLTE.cpp    2641  E Sub-ID:1    PdpActivate set pref wwan  RegType[0]
+ 5071 00210180 07:31:06.481                        qpDcm.c    7597  E Sub-ID:1    qpDcmEstablishPDPConnection - pDcmConnProfile --&gt; 0x8e96e70 | InstanceID --&gt; 1
+ 5072 00210181 07:31:06.481                        qpDcm.c    7600  M Sub-ID:1    IMS_APP#&gt;&gt;#DPL_M#0#qpDcmEstablishPDPConnection
+ 5076 00210184 07:31:06.481                        qpDcm.c    7730  H Sub-ID:1    qpDcmEstablishPDPConnection - 3GPP ProfileNumber --&gt; 2 | 3GPP2 ProfileNumber --&gt; -1 | IPType --&gt; 2
+ 5077 00210208 07:31:06.493                        qpDcm.c    7737  H Sub-ID:1    DPL_M#$$#0#qpDcmEstablishPDPConnection - DS_EWOULDBLOCK on dsnet_start
+
+
+
+
+//WIFI connected
+07:31:07.791	[0x1544]	MCS QCSI Payload Packet
+packetVersion = 2
+V2 {
+   MsgType = Request
+              connection_status {
+                  connection_status = DSD_WIFI_CONN_STATUS_ASSOCIATED
+
+//PDP on LTE activated and register on LTE
+ 5636 00224923 07:31:08.807            RegisterManager.cpp    2753  H Sub-ID:1    EventPdpActivated: call EventPdpSuccess for RegType[0] 
+ 5770 00229440 07:31:11.638, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 5896 00230080 07:31:12.381, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, UNAUTHORIZED (401), CM Call ID =255
+ 6009 00231026 07:31:12.550, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 6175 00231420 07:31:12.941, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, OK (200), CM Call ID =255
+
+
+//UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+07:31:16.894             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:18.898             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:43.067             MSG                      IMS/Error                1                        [     qpDplHandOver.c   5993] DplHOConvertReportToQuality -- [Debug] iWiFiQual GOOD
+07:31:43.069             MSG                      IMS/High                 1                        [         ICSCore.cpp   6350] ICSCore::process_handover_measurement_cb: SRAT = 10, TRAT = 6, pHOStatus-&gt;bIsHOPossible 1 ===&gt;
+
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03732461_20181126_135742_11
+__CASE NUMBER__: 03732461
+__MESSAGE__:
+		07:31:16.894             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+__CASE ID__: 5003A00000s79c8
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: //UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+For bellow question, that's because LTE is avialble before WIFI, so IMS tries to regiser on LTE, after WIFI signal became good, HO register to WIFI. since it's regisered on LTE, it'll not HO to WIFI immediately to avoid ping-pong. this is an expected behavior.
+第2次D2T wifi连接比A9慢，先注册VOLTE，30sec后才注册vowifi. 
+
+//LTE available
+ 5052 00210043 07:31:06.478                 PDPManager.cpp    1501  H Sub-ID:1    EventChangeRat - New RAT is 10 and is valid: 1
+
+
+//start setup PDP over LTE and register
+ 5070 00210174 07:31:06.481         PDPRATHandlerVoLTE.cpp    2641  E Sub-ID:1    PdpActivate set pref wwan  RegType[0]
+ 5071 00210180 07:31:06.481                        qpDcm.c    7597  E Sub-ID:1    qpDcmEstablishPDPConnection - pDcmConnProfile --&gt; 0x8e96e70 | InstanceID --&gt; 1
+ 5072 00210181 07:31:06.481                        qpDcm.c    7600  M Sub-ID:1    IMS_APP#&gt;&gt;#DPL_M#0#qpDcmEstablishPDPConnection
+ 5076 00210184 07:31:06.481                        qpDcm.c    7730  H Sub-ID:1    qpDcmEstablishPDPConnection - 3GPP ProfileNumber --&gt; 2 | 3GPP2 ProfileNumber --&gt; -1 | IPType --&gt; 2
+ 5077 00210208 07:31:06.493                        qpDcm.c    7737  H Sub-ID:1    DPL_M#$$#0#qpDcmEstablishPDPConnection - DS_EWOULDBLOCK on dsnet_start
+
+
+
+
+//WIFI connected
+07:31:07.791	[0x1544]	MCS QCSI Payload Packet
+packetVersion = 2
+V2 {
+   MsgType = Request
+              connection_status {
+                  connection_status = DSD_WIFI_CONN_STATUS_ASSOCIATED
+
+//PDP on LTE activated and register on LTE
+ 5636 00224923 07:31:08.807            RegisterManager.cpp    2753  H Sub-ID:1    EventPdpActivated: call EventPdpSuccess for RegType[0] 
+ 5770 00229440 07:31:11.638, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 5896 00230080 07:31:12.381, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, UNAUTHORIZED (401), CM Call ID =255
+ 6009 00231026 07:31:12.550, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 6175 00231420 07:31:12.941, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, OK (200), CM Call ID =255
+
+
+//UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+07:31:16.894             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:18.898             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:43.067             MSG                      IMS/Error                1                        [     qpDplHandOver.c   5993] DplHOConvertReportToQuality -- [Debug] iWiFiQual GOOD
+07:31:43.069             MSG                      IMS/High                 1                        [         ICSCore.cpp   6350] ICSCore::process_handover_measurement_cb: SRAT = 10, TRAT = 6, pHOStatus-&gt;bIsHOPossible 1 ===&gt;
+
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03732461_20181126_135742_08
+__CASE NUMBER__: 03732461
+__MESSAGE__:
+		 5636 00224923 07:31:08.807            RegisterManager.cpp    2753  H Sub-ID:1    EventPdpActivated: call EventPdpSuccess for RegType[0] 
+__CASE ID__: 5003A00000s79c8
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: //PDP on LTE activated and register on LTE
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+For bellow question, that's because LTE is avialble before WIFI, so IMS tries to regiser on LTE, after WIFI signal became good, HO register to WIFI. since it's regisered on LTE, it'll not HO to WIFI immediately to avoid ping-pong. this is an expected behavior.
+第2次D2T wifi连接比A9慢，先注册VOLTE，30sec后才注册vowifi. 
+
+//LTE available
+ 5052 00210043 07:31:06.478                 PDPManager.cpp    1501  H Sub-ID:1    EventChangeRat - New RAT is 10 and is valid: 1
+
+
+//start setup PDP over LTE and register
+ 5070 00210174 07:31:06.481         PDPRATHandlerVoLTE.cpp    2641  E Sub-ID:1    PdpActivate set pref wwan  RegType[0]
+ 5071 00210180 07:31:06.481                        qpDcm.c    7597  E Sub-ID:1    qpDcmEstablishPDPConnection - pDcmConnProfile --&gt; 0x8e96e70 | InstanceID --&gt; 1
+ 5072 00210181 07:31:06.481                        qpDcm.c    7600  M Sub-ID:1    IMS_APP#&gt;&gt;#DPL_M#0#qpDcmEstablishPDPConnection
+ 5076 00210184 07:31:06.481                        qpDcm.c    7730  H Sub-ID:1    qpDcmEstablishPDPConnection - 3GPP ProfileNumber --&gt; 2 | 3GPP2 ProfileNumber --&gt; -1 | IPType --&gt; 2
+ 5077 00210208 07:31:06.493                        qpDcm.c    7737  H Sub-ID:1    DPL_M#$$#0#qpDcmEstablishPDPConnection - DS_EWOULDBLOCK on dsnet_start
+
+
+
+
+//WIFI connected
+07:31:07.791	[0x1544]	MCS QCSI Payload Packet
+packetVersion = 2
+V2 {
+   MsgType = Request
+              connection_status {
+                  connection_status = DSD_WIFI_CONN_STATUS_ASSOCIATED
+
+//PDP on LTE activated and register on LTE
+ 5636 00224923 07:31:08.807            RegisterManager.cpp    2753  H Sub-ID:1    EventPdpActivated: call EventPdpSuccess for RegType[0] 
+ 5770 00229440 07:31:11.638, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 5896 00230080 07:31:12.381, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, UNAUTHORIZED (401), CM Call ID =255
+ 6009 00231026 07:31:12.550, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 6175 00231420 07:31:12.941, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, OK (200), CM Call ID =255
+
+
+//UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+07:31:16.894             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:18.898             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:43.067             MSG                      IMS/Error                1                        [     qpDplHandOver.c   5993] DplHOConvertReportToQuality -- [Debug] iWiFiQual GOOD
+07:31:43.069             MSG                      IMS/High                 1                        [         ICSCore.cpp   6350] ICSCore::process_handover_measurement_cb: SRAT = 10, TRAT = 6, pHOStatus-&gt;bIsHOPossible 1 ===&gt;
+
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03732461_20181126_135742_09
+__CASE NUMBER__: 03732461
+__MESSAGE__:
+		07:31:43.067             MSG                      IMS/Error                1                        [     qpDplHandOver.c   5993] DplHOConvertReportToQuality -- [Debug] iWiFiQual GOOD
+		07:31:43.069             MSG                      IMS/High                 1                        [         ICSCore.cpp   6350] ICSCore::process_handover_measurement_cb: SRAT = 10, TRAT = 6, pHOStatus-&gt;bIsHOPossible 1 ===&gt;
+__CASE ID__: 5003A00000s79c8
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: //UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+For bellow question, that's because LTE is avialble before WIFI, so IMS tries to regiser on LTE, after WIFI signal became good, HO register to WIFI. since it's regisered on LTE, it'll not HO to WIFI immediately to avoid ping-pong. this is an expected behavior.
+第2次D2T wifi连接比A9慢，先注册VOLTE，30sec后才注册vowifi. 
+
+//LTE available
+ 5052 00210043 07:31:06.478                 PDPManager.cpp    1501  H Sub-ID:1    EventChangeRat - New RAT is 10 and is valid: 1
+
+
+//start setup PDP over LTE and register
+ 5070 00210174 07:31:06.481         PDPRATHandlerVoLTE.cpp    2641  E Sub-ID:1    PdpActivate set pref wwan  RegType[0]
+ 5071 00210180 07:31:06.481                        qpDcm.c    7597  E Sub-ID:1    qpDcmEstablishPDPConnection - pDcmConnProfile --&gt; 0x8e96e70 | InstanceID --&gt; 1
+ 5072 00210181 07:31:06.481                        qpDcm.c    7600  M Sub-ID:1    IMS_APP#&gt;&gt;#DPL_M#0#qpDcmEstablishPDPConnection
+ 5076 00210184 07:31:06.481                        qpDcm.c    7730  H Sub-ID:1    qpDcmEstablishPDPConnection - 3GPP ProfileNumber --&gt; 2 | 3GPP2 ProfileNumber --&gt; -1 | IPType --&gt; 2
+ 5077 00210208 07:31:06.493                        qpDcm.c    7737  H Sub-ID:1    DPL_M#$$#0#qpDcmEstablishPDPConnection - DS_EWOULDBLOCK on dsnet_start
+
+
+
+
+//WIFI connected
+07:31:07.791	[0x1544]	MCS QCSI Payload Packet
+packetVersion = 2
+V2 {
+   MsgType = Request
+              connection_status {
+                  connection_status = DSD_WIFI_CONN_STATUS_ASSOCIATED
+
+//PDP on LTE activated and register on LTE
+ 5636 00224923 07:31:08.807            RegisterManager.cpp    2753  H Sub-ID:1    EventPdpActivated: call EventPdpSuccess for RegType[0] 
+ 5770 00229440 07:31:11.638, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 5896 00230080 07:31:12.381, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, UNAUTHORIZED (401), CM Call ID =255
+ 6009 00231026 07:31:12.550, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 6175 00231420 07:31:12.941, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, OK (200), CM Call ID =255
+
+
+//UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+07:31:16.894             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:18.898             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:43.067             MSG                      IMS/Error                1                        [     qpDplHandOver.c   5993] DplHOConvertReportToQuality -- [Debug] iWiFiQual GOOD
+07:31:43.069             MSG                      IMS/High                 1                        [         ICSCore.cpp   6350] ICSCore::process_handover_measurement_cb: SRAT = 10, TRAT = 6, pHOStatus-&gt;bIsHOPossible 1 ===&gt;
+
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03732461_20181126_135742_07
+__CASE NUMBER__: 03732461
+__MESSAGE__:
+		07:31:18.898             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+__CASE ID__: 5003A00000s79c8
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: //UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+For bellow question, that's because LTE is avialble before WIFI, so IMS tries to regiser on LTE, after WIFI signal became good, HO register to WIFI. since it's regisered on LTE, it'll not HO to WIFI immediately to avoid ping-pong. this is an expected behavior.
+第2次D2T wifi连接比A9慢，先注册VOLTE，30sec后才注册vowifi. 
+
+//LTE available
+ 5052 00210043 07:31:06.478                 PDPManager.cpp    1501  H Sub-ID:1    EventChangeRat - New RAT is 10 and is valid: 1
+
+
+//start setup PDP over LTE and register
+ 5070 00210174 07:31:06.481         PDPRATHandlerVoLTE.cpp    2641  E Sub-ID:1    PdpActivate set pref wwan  RegType[0]
+ 5071 00210180 07:31:06.481                        qpDcm.c    7597  E Sub-ID:1    qpDcmEstablishPDPConnection - pDcmConnProfile --&gt; 0x8e96e70 | InstanceID --&gt; 1
+ 5072 00210181 07:31:06.481                        qpDcm.c    7600  M Sub-ID:1    IMS_APP#&gt;&gt;#DPL_M#0#qpDcmEstablishPDPConnection
+ 5076 00210184 07:31:06.481                        qpDcm.c    7730  H Sub-ID:1    qpDcmEstablishPDPConnection - 3GPP ProfileNumber --&gt; 2 | 3GPP2 ProfileNumber --&gt; -1 | IPType --&gt; 2
+ 5077 00210208 07:31:06.493                        qpDcm.c    7737  H Sub-ID:1    DPL_M#$$#0#qpDcmEstablishPDPConnection - DS_EWOULDBLOCK on dsnet_start
+
+
+
+
+//WIFI connected
+07:31:07.791	[0x1544]	MCS QCSI Payload Packet
+packetVersion = 2
+V2 {
+   MsgType = Request
+              connection_status {
+                  connection_status = DSD_WIFI_CONN_STATUS_ASSOCIATED
+
+//PDP on LTE activated and register on LTE
+ 5636 00224923 07:31:08.807            RegisterManager.cpp    2753  H Sub-ID:1    EventPdpActivated: call EventPdpSuccess for RegType[0] 
+ 5770 00229440 07:31:11.638, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 5896 00230080 07:31:12.381, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, UNAUTHORIZED (401), CM Call ID =255
+ 6009 00231026 07:31:12.550, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+ 6175 00231420 07:31:12.941, Summary:SIP Message, NW--&gt;UE, IMS_SIP_REGISTER, OK (200), CM Call ID =255
+
+
+//UE keep mornitoring WIFI signal quality. once the WIFI signal quality is good. register HO wo WIFI
+07:31:16.894             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:18.898             MSG                      IMS/High                 1                        [     qpDplHandOver.c    856] qpDplLTEDLMeasureCallback: Monitoring ends now, Reporting DL state as 1
+07:31:43.067             MSG                      IMS/Error                1                        [     qpDplHandOver.c   5993] DplHOConvertReportToQuality -- [Debug] iWiFiQual GOOD
+07:31:43.069             MSG                      IMS/High                 1                        [         ICSCore.cpp   6350] ICSCore::process_handover_measurement_cb: SRAT = 10, TRAT = 6, pHOStatus-&gt;bIsHOPossible 1 ===&gt;
+
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03764236_20181126_135742_26
+__CASE NUMBER__: 03764236
+__MESSAGE__:
+		09:42:59.649 qipcallrtp.c 1461 H Sub-ID:1 qipcallrtp_process_rtp_inactivity_timeout: Both RTP/RTCP for Audio stream [0] timedout, Ending call 
+__CASE ID__: 5003A00000sYhDG
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer,
+The log not match to your reproduce steps.
+Pls get a complete log from beiginning of the call. there's no upgrading to VT call QMI request in current log. call is ended becuase no RTP is recieved.
+
+09:42:59.649 qipcallrtp.c 1461 H Sub-ID:1 qipcallrtp_process_rtp_inactivity_timeout: Both RTP/RTCP for Audio stream [0] timedout, Ending call 
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03764263_20181126_135742_31
+__CASE NUMBER__: 03764263
+__MESSAGE__:
+		08:50:34.531                 PDPManager.cpp    2971  H Sub-ID:1    GetPreferredRAT Preferred RAT 10
+__CASE ID__: 5003A00000sYhGK
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+We found there are many log dropped, such as attach, only attach request was printed, other NAS signalling was not printed
+IMS register, we just found IMS get LTE RAT at 08:50:34, there is not much info to check why IMS register did not happen.
+
+Could you please capture online boot up log using default log mask, capture online log is to avoid log dropped
+
+Log info
+
+08:50:34.531                 PDPManager.cpp    2971  H Sub-ID:1    GetPreferredRAT Preferred RAT 10
+
+//Attach triggered
+2018 Oct 29  08:53:44.159  [95]  0xB0ED  LTE NAS EMM Plain OTA Outgoing Message  --  Attach request Msg
+Subscription ID = 1
+pkt_version = 1 (0x1)
+rel_number = 9 (0x9)
+rel_version_major = 5 (0x5)
+rel_version_minor = 0 (0x0)
+security_header_or_skip_ind = 0 (0x0)
+prot_disc = 7 (0x7) (EPS mobility management messages)
+msg_type = 65 (0x41) (Attach request)
+
+thanks
+
+************************************************************
+__NAME__: MSG_03731073_20181126_135742_37
+__CASE NUMBER__: 03731073
+__MESSAGE__:
+		MSG        [00051/01] IMS/Medium                               00:00:27.652                qpDcm.c  03847  qpDcmProcessDomSelMsg: DCM_MSG_VOPS_CHANGED vops_indicator UN-SET :0
+		MSG        [00051/02] IMS/High                                 00:00:27.652         PDPManager.cpp  00418  GenericDcmCallback : event type 10
+		MSG        [00051/01] IMS/Medium                               00:00:27.652         PDPManager.cpp  00637  CPDPManager::HandleLteVOPSChange Current Vops 0  operator mode 2 VopsMask 8
+__CASE ID__: 5003A00000s73qu
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+Could you please check if network or this eSIM card support VOLTE or not, DUT did not receive IMSVoPS = 1, this cause PS detach, and IMS register was not triggered
+
+VOPS should not enabled at the beginning then shortly after receive PS detach, after that not see any RAT back to lte again.
+
+1980 Jan  6  00:02:20.494  [AF]  0xB0EC  LTE NAS EMM Plain OTA Incoming Message  --  Attach accept Msg
+pkt_version = 1 (0x1)
+rel_number = 9 (0x9)
+rel_version_major = 5 (0x5)
+rel_version_minor = 0 (0x0)
+security_header_or_skip_ind = 0 (0x0)
+prot_disc = 7 (0x7) (EPS mobility management messages)
+msg_type = 66 (0x42) (Attach accept)
+..........
+
+      length = 1 (0x1)
+      CPCIoT = 0 (0x0)
+      ERwoPDN = 0 (0x0)
+      ESRPS = 0 (0x0)
+      CS_LCS = 0 (0x0) (No info about support of loc service via cs is available)
+      EPC_LCS = 0 (0x0) (Location Services via EPC not supported)
+      EMC_BS = 0 (0x0) (Emergency bearer services in S1 Mode not supported)
+      IMSVoPS = 0 (0x0) (IMS Vo PS Session in S1 Mode not supported)
+    add_update_result_incl = 1 (0x1)
+
+MSG        [00051/01] IMS/Medium                               00:00:27.652                qpDcm.c  03847  qpDcmProcessDomSelMsg: DCM_MSG_VOPS_CHANGED vops_indicator UN-SET :0
+MSG        [00051/02] IMS/High                                 00:00:27.652         PDPManager.cpp  00418  GenericDcmCallback : event type 10
+MSG        [00051/01] IMS/Medium                               00:00:27.652         PDPManager.cpp  00637  CPDPManager::HandleLteVOPSChange Current Vops 0  operator mode 2 VopsMask 8
+
+MSG        [00051/01] IMS/Medium                               00:02:19.414     RegisterManager.cpp  01273  PS Detach received
+
+thanks
+
+************************************************************
+__NAME__: MSG_03731073_20181126_135742_36
+__CASE NUMBER__: 03731073
+__MESSAGE__:
+		MSG        [00051/01] IMS/Medium                               00:02:19.414     RegisterManager.cpp  01273  PS Detach received
+__CASE ID__: 5003A00000s73qu
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+Could you please check if network or this eSIM card support VOLTE or not, DUT did not receive IMSVoPS = 1, this cause PS detach, and IMS register was not triggered
+
+VOPS should not enabled at the beginning then shortly after receive PS detach, after that not see any RAT back to lte again.
+
+1980 Jan  6  00:02:20.494  [AF]  0xB0EC  LTE NAS EMM Plain OTA Incoming Message  --  Attach accept Msg
+pkt_version = 1 (0x1)
+rel_number = 9 (0x9)
+rel_version_major = 5 (0x5)
+rel_version_minor = 0 (0x0)
+security_header_or_skip_ind = 0 (0x0)
+prot_disc = 7 (0x7) (EPS mobility management messages)
+msg_type = 66 (0x42) (Attach accept)
+..........
+
+      length = 1 (0x1)
+      CPCIoT = 0 (0x0)
+      ERwoPDN = 0 (0x0)
+      ESRPS = 0 (0x0)
+      CS_LCS = 0 (0x0) (No info about support of loc service via cs is available)
+      EPC_LCS = 0 (0x0) (Location Services via EPC not supported)
+      EMC_BS = 0 (0x0) (Emergency bearer services in S1 Mode not supported)
+      IMSVoPS = 0 (0x0) (IMS Vo PS Session in S1 Mode not supported)
+    add_update_result_incl = 1 (0x1)
+
+MSG        [00051/01] IMS/Medium                               00:00:27.652                qpDcm.c  03847  qpDcmProcessDomSelMsg: DCM_MSG_VOPS_CHANGED vops_indicator UN-SET :0
+MSG        [00051/02] IMS/High                                 00:00:27.652         PDPManager.cpp  00418  GenericDcmCallback : event type 10
+MSG        [00051/01] IMS/Medium                               00:00:27.652         PDPManager.cpp  00637  CPDPManager::HandleLteVOPSChange Current Vops 0  operator mode 2 VopsMask 8
+
+MSG        [00051/01] IMS/Medium                               00:02:19.414     RegisterManager.cpp  01273  PS Detach received
+
+thanks
+
+************************************************************
+__NAME__: MSG_03728035_20181126_135742_47
+__CASE NUMBER__: 03728035
+__MESSAGE__:
+		 07:43:59.076                 PDPManager.cpp    2496  H GetPreferredRAT Preferred RAT 10
+__CASE ID__: 5003A00000s6qA0
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+DUT IMS trigger IMS register when get valid RAT.
+
+From your log, DUT IMS received LTE RAT from DS at  07:43:59, however DUT received 07:43:58. So MT call should be earlier than LTE RAT got by DUT.
+Since DUT did not finish IMS register, so DUT got MT CS call. Any issue please call 010-57760336
+
+DUTB Log info.
+
+ 07:43:59.076                 PDPManager.cpp    2496  H GetPreferredRAT Preferred RAT 10
+
+2018 Oct 28  07:43:58.175  [EC]  0xB0EC  LTE NAS EMM Plain OTA Incoming Message  --  CS Service Notification Msg
+pkt_version = 1 (0x1)
+rel_number = 9 (0x9)
+rel_version_major = 5 (0x5)
+rel_version_minor = 0 (0x0)
+security_header_or_skip_ind = 0 (0x0)
+prot_disc = 7 (0x7) (EPS mobility management messages)
+msg_type = 100 (0x64) (CS Service Notification)
+lte_emm_msg
+  emm_cs_serv_notif
+    paging_id_value = 1 (0x1)
+    cli_incl = 1 (0x1)
+    cli_type
+      ext = 0 (0x0)
+      number_type = 2 (0x2)
+      num_plan_ident = 1 (0x1)
+
+thanks
+
+************************************************************
+__NAME__: MSG_03754190_20181126_135742_51
+__CASE NUMBER__: 03754190
+__MESSAGE__:
+		17:41:21.230             MSG                      IMS/Fatal                                         [      PDPHandler.cpp    237] CPDPHandler::CreateProfile - Profile creation failed, m_pDcmProfile is NULL
+__CASE ID__: 5003A00000sY1Ax
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer,
+UT still not found the matched ds profile, if NV70263 - iUtIPAddrType = 1, the ds profile should set as IP. If the ds profile is IPV4V6, pls set NV70263 – iUtIPAddrType &gt;=4.
+
+17:41:21.230             MSG                      IMS/Fatal                                         [      PDPHandler.cpp    237] CPDPHandler::CreateProfile - Profile creation failed, m_pDcmProfile is NULL
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03749156_20181126_135742_55
+__CASE NUMBER__: 03749156
+__MESSAGE__:
+		03:18:01.283                      cmwsups.c    1655  H =CM= cmsups_client_cmd_check, is_ue_based_cw=1, ss_code=65
+		03:18:01.283                      cmwsups.c    3051  H =CM= SUPS_FW_LL: is_ue_based_cw=1, enabled=1, ss_code=65
+__CASE ID__: 5003A00000sXcER
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+Yes, you enabled UE based.
+But CS call is setup since your device did not support VOLTE, and your card enabled call waiting in CS domain. So network handled MT call first, and did not send MT call to device. And if you card disabled call waiting in CS domain network side, your test device can receive MT call.
+
+If no issue left, kindly close this case
+
+Log info
+
+03:18:01.283                      cmwsups.c    1655  H =CM= cmsups_client_cmd_check, is_ue_based_cw=1, ss_code=65
+03:18:01.283                      cmwsups.c    3051  H =CM= SUPS_FW_LL: is_ue_based_cw=1, enabled=1, ss_code=65
+
+thanks
+
+************************************************************
+__NAME__: MSG_03762524_20181126_135742_59
+__CASE NUMBER__: 03762524
+__MESSAGE__:
+		13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[0]: APN=gprs.swisscom.ch, PrefRAT=10, RATMask=1024 
+		13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[0]: APN=gprs.swisscom.ch, PrefRAT=10, RATMask=1024 
+		13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[1]: APN=hos, PrefRAT=6, RATMask=1088 
+		13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[2]: APN=ims, PrefRAT=6, RATMask=1088 
+		13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[3]: APN=sos, PrefRAT=10, RATMask=1024 
+		13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[4]: APN=, PrefRAT=10, RATMask=1024 
+__CASE ID__: 5003A00000sYZFm
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+IMS always get IMS LTE RAT from DS, till below timestamp, IMS get RAT change event, IMS prefRAT is iWLAN.
+And IMS register via iWLAN happen soon 
+
+What is the issue.
+Do you have other issue left
+
+Log info
+
+13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[0]: APN=gprs.swisscom.ch, PrefRAT=10, RATMask=1024 
+13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[0]: APN=gprs.swisscom.ch, PrefRAT=10, RATMask=1024 
+13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[1]: APN=hos, PrefRAT=6, RATMask=1088 
+13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[2]: APN=ims, PrefRAT=6, RATMask=1088 
+13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[3]: APN=sos, PrefRAT=10, RATMask=1024 
+13:27:59.676                        qpDcm.c    8782  H Sub-ID:1	qpDplProcessDSSysEvent: PrefSysInfo[4]: APN=, PrefRAT=10, RATMask=1024 
+
+13:28:05.645, Summary:SIP Message, UE--&gt;NW, IMS_SIP_REGISTER, , CM Call ID =255
+
+thanks
+
+************************************************************
+__NAME__: MSG_03732524_20181126_135742_64
+__CASE NUMBER__: 03732524
+__MESSAGE__:
+		01:15:18.229         qpIMSPolicyManager.cpp    1949  M Sub-ID:1    GetRATAPNAttributes RAT = 10 APNType = 1 RegActionMask 17 
+__CASE ID__: 5003A00000s79ik
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+Could you please check if NV71527 version = 3 was used, if not please use NV 71527 Version 3 and then test it again
+
+Log info
+01:15:18.229         qpIMSPolicyManager.cpp    1949  M Sub-ID:1    GetRATAPNAttributes RAT = 10 APNType = 1 RegActionMask 17 
+
+thanks
+
+************************************************************
+__NAME__: MSG_03745092_20181126_135742_68
+__CASE NUMBER__: 03745092
+__MESSAGE__:
+		13:03:27.064                        qpDcm.c    9289  H DPL_M#IMS_APP#1#qpDcmGetVopsIndicationFromDomainSelection#ims_pref 8 
+__CASE ID__: 5003A00000sXJO0
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+IMS did not get IMS supported from MMOD, network did not send IMSVoPS = 1 (0x1) (IMS Vo PS Session in S1 Mode supported) via Attach accept Msg
+
+So network or card did not support IMS, you can try use other reference device or card to confirm
+
+If no issue left, kindly close this case
+
+Log info
+
+2018 Nov  7  13:00:51.044  [82]  0xB0EC  LTE NAS EMM Plain OTA Incoming Message  --  Attach accept Msg
+pkt_version = 1 (0x1)
+rel_number = 9 (0x9)
+rel_version_major = 5 (0x5)
+rel_version_minor = 0 (0x0)
+security_header_or_skip_ind = 0 (0x0)
+prot_disc = 7 (0x7) (EPS mobility management messages)
+msg_type = 66 (0x42) (Attach accept)
+.....
+    emergnecy_num_list_incl = 0 (0x0)
+    eps_netwk_feature_support_incl = 0 (0x0)
+    add_update_result_incl = 0 (0x0)
+    t3412_ext_incl = 0 (0x0)
+    t3324_incl = 0 (0x0)
+    ext_drx_par_incl = 0 (0x0)
+    dcn_id_incl = 0 (0x0)
+    sms_srvc_status_incl = 0 (0x0)
+    non_3gpp_access_emerg_num_policy_incl = 0 (0x0)
+    t3448_incl = 0 (0x0)
+    nwk_policy_incl = 0 (0x0)
+
+13:03:27.064                        qpDcm.c    9289  H DPL_M#IMS_APP#1#qpDcmGetVopsIndicationFromDomainSelection#ims_pref 8 
+
+Network support IMS
+
+2018 Nov  6  11:02:34.393  [F5]  0xB0EC  LTE NAS EMM Plain OTA Incoming Message  --  Attach accept Msg
+........
+    eps_netwk_feature_support
+      length = 1 (0x1)
+      CPCIoT = 0 (0x0)
+      ERwoPDN = 0 (0x0)
+      ESRPS = 0 (0x0)
+      CS_LCS = 0 (0x0) (No info about support of loc service via cs is available)
+      EPC_LCS = 0 (0x0) (Location Services via EPC not supported)
+      EMC_BS = 0 (0x0) (Emergency bearer services in S1 Mode not supported)
+      IMSVoPS = 1 (0x1) (IMS Vo PS Session in S1 Mode supported)
+
+thanks
+
+************************************************************
+__NAME__: MSG_03750949_20181126_135742_8
+__CASE NUMBER__: 03750949
+__MESSAGE__:
+		[9509/0002/0021]         MSG                      10:47:21.097             [       lte_ml1_cdb.c   2068] Layer barred: rat type 0, earfcn 38098, cause 4
+		[9509/0002/0021]         MSG                      10:47:21.097             [       lte_ml1_cdb.c   2075] Barring expiry time 0x019e9aa66 ms Current time 0x019e605c1 ms
+__CASE ID__: 5003A00000sXkbr
+__OWNER__: Wei Dong
+__MAIL__: weid
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+
+From starting of logs layer 38098 is barred with cause LTE_ML1_CDB_LAYER_FORBIDDEN_TA , barring duration approx. 238 secs from below time stamp
+This is the reason we did not perform any search / measurement on this layer. 
+
+[9509/0002/0021]         MSG                      10:47:21.097             [       lte_ml1_cdb.c   2068] Layer barred: rat type 0, earfcn 38098, cause 4
+[9509/0002/0021]         MSG                      10:47:21.097             [       lte_ml1_cdb.c   2075] Barring expiry time 0x019e9aa66 ms Current time 0x019e605c1 ms
+
+We searched/measured other 5 inter frequency layers , but none of them had any cell meeting reselection criteria. 
+
+Thanks
+
+************************************************************
+__NAME__: MSG_03729480_20181126_135742_86
+__CASE NUMBER__: 03729480
+__MESSAGE__:
+		[5000/0001]              MSG                      08:53:18.987             Data Services/Medium     [    DSS_NetDSAPI.cpp    565] dss_pppopen(): app_id 2217
+		[5000/0001]              MSG                      08:53:18.992             Data Services/Medium     [    DSS_NetDSAPI.cpp    565] dss_pppopen(): app_id 2218
+__CASE ID__: 5003A00000s6yFs
+__OWNER__: Liang Xue
+__MAIL__: xliang
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Hi IMS 
+
+IMS PDN disconnect is triggered by IMS calling pppclose
+
+[5000/0001]              MSG                      08:53:18.987             Data Services/Medium     [    DSS_NetDSAPI.cpp    565] dss_pppopen(): app_id 2217
+[5000/0001]              MSG                      08:53:18.992             Data Services/Medium     [    DSS_NetDSAPI.cpp    565] dss_pppopen(): app_id 2218
+
+
+[5000/0001]              MSG                      08:53:19.891             Data Services/Medium     [    DSS_NetDSAPI.cpp    524] dss_pppclose(): app_id 2218 errno 0xd058ac8e
+[5000/0001]              MSG                      08:53:19.891             Data Services/Medium     [    DSS_NetDSAPI.cpp    524] dss_pppclose(): app_id 2217 errno 0xd058aab6
+
+
+
+
+Thanks
+Jing
+
+************************************************************
+__NAME__: MSG_03729480_20181126_135742_85
+__CASE NUMBER__: 03729480
+__MESSAGE__:
+		[5000/0001]              MSG                      08:53:19.891             Data Services/Medium     [    DSS_NetDSAPI.cpp    524] dss_pppclose(): app_id 2218 errno 0xd058ac8e
+		[5000/0001]              MSG                      08:53:19.891             Data Services/Medium     [    DSS_NetDSAPI.cpp    524] dss_pppclose(): app_id 2217 errno 0xd058aab6
+__CASE ID__: 5003A00000s6yFs
+__OWNER__: Liang Xue
+__MAIL__: xliang
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Hi IMS 
+
+IMS PDN disconnect is triggered by IMS calling pppclose
+
+[5000/0001]              MSG                      08:53:18.987             Data Services/Medium     [    DSS_NetDSAPI.cpp    565] dss_pppopen(): app_id 2217
+[5000/0001]              MSG                      08:53:18.992             Data Services/Medium     [    DSS_NetDSAPI.cpp    565] dss_pppopen(): app_id 2218
+
+
+[5000/0001]              MSG                      08:53:19.891             Data Services/Medium     [    DSS_NetDSAPI.cpp    524] dss_pppclose(): app_id 2218 errno 0xd058ac8e
+[5000/0001]              MSG                      08:53:19.891             Data Services/Medium     [    DSS_NetDSAPI.cpp    524] dss_pppclose(): app_id 2217 errno 0xd058aab6
+
+
+
+
+Thanks
+Jing
+
+************************************************************
+__NAME__: MSG_03730144_20181126_135742_92
+__CASE NUMBER__: 03730144
+__MESSAGE__:
+		21:42:32.059             MSG                      IMS/Error                1                        [        MafTimer.cpp    151] MafTimer::TimerFired | Invoking User Callback
+		21:42:32.059             MSG                      IMS/Error                1                        [         ICSCore.cpp   4721] ICSCore::is_deregistration_required: apn_current_ntwk is NONE
+		21:42:32.059             MSG                      IMS/High                 1                        [         ICSCore.cpp   3089] ICSCore::perform_handover_management_ex: Dereg is NOT required, report HO status to RM if needed
+__CASE ID__: 5003A00000s6zjk
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: //after timer expired, found WIFI radio is already lost, so no send de-register anymore.
+__ACCEPT__: Yes
+__COMMENTS__:
+Hi Chengqiang,
+IMS start one RADIO_OFF_BUFFER_TIMER timer 1s, when timer expired, found WIFI is already lost, so no send de-register anymore.
+
+Could your UI APP also delay 6s to send dsd_wlan_available with connection_status = DSD_WIFI_CONN_STATUS_DISASSOCIATED after wifi_switch = false.
+
+//wifi_switch = false
+21:42:31.032 [0x1544] MCS QCSI Payload Packet
+packetVersion = 2
+V2 {
+MsgType = Request
+Counter = 65
+ServiceId = 42
+MajorRev = 1
+MinorRev = 35
+ConHandle = 0x00000018
+MsgId = 0x00000034
+QmiLength = 4
+Service_DSD {
+ServiceDSDV1 {
+dsd_notify_data_settings {
+dsd_notify_data_settings_reqTlvs[0] {
+Type = 0x13
+Length = 1
+wifi_switch {
+wifi_switch = false
+
+//start 1s buffer
+21:42:31.034             MSG                      IMS HOM/High             1                        [  ICSTimerManager.cp    315] ICSTimerManager::StartTimer(): TimerValue:1000 msecs timerID:SINGO_WIFI_RADIO_OFF_BUFFER_TIMER
+
+//ONLY 461ms from wifi_switch = false
+21:42:31.493 [0x1544] MCS QCSI Payload Packet
+packetVersion = 2
+V2 {
+MsgType = Request
+Counter = 67
+ServiceId = 42
+MajorRev = 1
+MinorRev = 35
+ConHandle = 0x00000018
+MsgId = 0x00000020
+QmiLength = 52
+Service_DSD {
+ServiceDSDV1 {
+dsd_wlan_available {
+dsd_wlan_available_reqTlvs[0] {
+Type = 0x01
+Length = 6
+wlan_ap_mac_address {
+wlan_ap_mac_address = { 0, 0, 0, 0, 0, 0 }
+}
+}
+dsd_wlan_available_reqTlvs[1] {
+Type = 0x12
+Length = 4
+wqe_status {
+wqe_status = DSD_WQE_ACTIVE
+}
+}
+dsd_wlan_available_reqTlvs[2] {
+Type = 0x1B
+Length = 15
+ssid {
+ssid_len = 14
+ssid = { 
+84, 65, 76, 75, 84, 65, 76, 75, 
+57, 65, 57, 50, 55, 52
+}
+}
+}
+dsd_wlan_available_reqTlvs[3] {
+Type = 0x1F
+Length = 4
+wifi_assoc_type {
+wifi_assoc_type = DSD_WIFI_ASSOC_STA
+}
+}
+dsd_wlan_available_reqTlvs[4] {
+Type = 0x21
+Length = 4
+connection_status {
+connection_status = DSD_WIFI_CONN_STATUS_DISASSOCIATED
+
+//after timer expired, found WIFI radio is already lost, so no send de-register anymore.
+21:42:32.059             MSG                      IMS/Error                1                        [        MafTimer.cpp    151] MafTimer::TimerFired | Invoking User Callback
+21:42:32.059             MSG                      IMS HOM/High             1                        [  ICSTimerManager.cp    642] ICSTimerManager::update | timerID = SINGO_WIFI_RADIO_OFF_BUFFER_TIMER ,event = 3
+21:42:32.059             MSG                      IMS/Error                1                        [         ICSCore.cpp   4721] ICSCore::is_deregistration_required: apn_current_ntwk is NONE
+21:42:32.059             MSG                      IMS/High                 1                        [         ICSCore.cpp   3089] ICSCore::perform_handover_management_ex: Dereg is NOT required, report HO status to RM if needed
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03765362_20181126_135743_01
+__CASE NUMBER__: 03765362
+__MESSAGE__:
+		07:12:54.377             DS AT Command Parser/Error[   dsatetsicmif_ex.c    828] Ignoring received SUPS EVENT 9 from another client 17
+		07:12:54.377             IMS/High                 [     qpDplCallCtrl.c   1775] GetMappingCMIPAPPSUPPSrvRptNameType CM Sups Evt --&gt; 9 | IMS Sups Evt --&gt; 92                                                 0
+		07:12:54.377             IMS/Error                [RegManagerController.cpp    193] CallCtrlCB - Unhandled callback type:292                                                 0
+		07:12:54.377             Legacy/High              [    qmi_modem_info.c   2052] HW: qmi_modem_info_stat_ratio_in_net_start: qmi_modem_info_ratio_timespan_lte = 15681, diff_time = 0, current_time_point = 16121
+		07:12:54.377             User Identity Module/High[         estk_sups.c   1511] Receive ESTK CM Supps Event 0x9, sups_info_ptr=0x8b9b7df0
+		07:12:54.378             IMS/High                 [          qipcallh.c  34739] qipcallh_process_call_request: eCallCbType = 292                                                 0
+		07:12:54.378             Legacy/Error             [        hw_qmi_nas.c   1125] Please add feature F_RO_HW_EU_COMMON_SAR_SUPPORT
+		07:12:54.378             MMODE QMI/High           [   qmi_voice_cm_if.c  24647] qmi_voice_cm_if_sups_process_call_control_data: ss ref =11, cc result = 0, event = 73737
+		07:12:54.378             MMODE QMI/Error          [   qmi_voice_cm_if.c  18462] Recieved Get CALL FORWARDING with Error confirmation type  = 15
+		07:12:54.378             MMODE QMI/High           [ qmi_voice_cm_sups.c   1694] ss_error = 34 mapped to QMI failure cause = 125
+__CASE ID__: 5003A00000sYnVQ
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+It seems that this case is mistakenly assigned to NAS.
+The error of supplimentary services is not from NAS layer but IMS
+
+07:12:54.377             DS AT Command Parser/Error[   dsatetsicmif_ex.c    828] Ignoring received SUPS EVENT 9 from another client 17
+07:12:54.377             IMS/High                 [     qpDplCallCtrl.c   1775] GetMappingCMIPAPPSUPPSrvRptNameType CM Sups Evt --&gt; 9 | IMS Sups Evt --&gt; 92                                                 0
+07:12:54.377             IMS/Error                [RegManagerController.cpp    193] CallCtrlCB - Unhandled callback type:292                                                 0
+07:12:54.377             Legacy/High              [    qmi_modem_info.c   2052] HW: qmi_modem_info_stat_ratio_in_net_start: qmi_modem_info_ratio_timespan_lte = 15681, diff_time = 0, current_time_point = 16121
+07:12:54.377             User Identity Module/High[         estk_sups.c   1511] Receive ESTK CM Supps Event 0x9, sups_info_ptr=0x8b9b7df0
+07:12:54.378             IMS/High                 [          qipcallh.c  34739] qipcallh_process_call_request: eCallCbType = 292                                                 0
+07:12:54.378             Legacy/Error             [        hw_qmi_nas.c   1125] Please add feature F_RO_HW_EU_COMMON_SAR_SUPPORT
+07:12:54.378             MMODE QMI/High           [   qmi_voice_cm_if.c  24647] qmi_voice_cm_if_sups_process_call_control_data: ss ref =11, cc result = 0, event = 73737
+07:12:54.378             MMODE QMI/Error          [   qmi_voice_cm_if.c  18462] Recieved Get CALL FORWARDING with Error confirmation type  = 15
+07:12:54.378             MMODE QMI/High           [ qmi_voice_cm_sups.c   1694] ss_error = 34 mapped to QMI failure cause = 125
+07:12:54.380             MCS QCSI Payload Packet  Length: 0040
+
+
+I will let IMS team further support this case.
+
+Regards
+OnkarNath
+
+************************************************************
+__NAME__: MSG_03760922_20181126_135743_05
+__CASE NUMBER__: 03760922
+__MESSAGE__:
+		1959 00109845 10:02:09.477                qipcalldialog.c    2750  H Sub-ID:1    qipcalldialog_process_prack_success_event: local precondition not met, waiting for QoS event for dialog state = 1
+__CASE ID__: 5003A00000sYVmq
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+MO recieved update with video port = 0, while MT received cancel with "No user responding".
+Do you know if reference device is working in the same test? can't conclude anything wrong in UE side.
+
+MO:
+
+ 773 00099120 10:02:08.429, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, , CM Call ID =2
+ 799 00099559 10:02:08.489, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, TRYING (100), CM Call ID =2
+1465 00106143 10:02:09.291, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, SESSION_PROGRESS (183), CM Call ID =2
+1508 00106913 10:02:09.317, Summary:SIP Message, UE--&gt;NW, IMS_SIP_PRACK, , CM Call ID =2
+1957 00109715 10:02:09.476, Summary:SIP Message, NW--&gt;UE, IMS_SIP_PRACK, OK (200), CM Call ID =2
+
+1959 00109845 10:02:09.477                qipcalldialog.c    2750  H Sub-ID:1    qipcalldialog_process_prack_success_event: local precondition not met, waiting for QoS event for dialog state = 1
+
+
+//recieved update with video port = 0
+1973 00161237 2018 Nov 19  10:02:20.709  [DC]  0x156E  IMS SIP Message  --  IMS_SIP_UPDATE/INFORMAL_RESPONSE
+1976 00161237 Direction = NETWORK_TO_UE
+1981 00161237 Message ID = IMS_SIP_UPDATE
+2026 00161237 m=video 0 RTP/AVP 114 113
+
+MT:
+
+ 117 00011744 10:02:08.781, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, , CM Call ID =255
+ 140 00011894 10:02:08.783, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, TRYING (100), CM Call ID =255
+ 296 00014229 10:02:08.836, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, SESSION_PROGRESS (183), CM Call ID =2
+1014 00021902 10:02:09.068, Summary:SIP Message, NW--&gt;UE, IMS_SIP_PRACK, , CM Call ID =2
+1041 00022157 10:02:09.073, Summary:SIP Message, UE--&gt;NW, IMS_SIP_PRACK, OK (200), CM Call ID =2
+
+//received cancel with "No user responding"
+1093 00026233 2018 Nov 19  10:02:18.748  [35]  0x156E  IMS SIP Message  --  IMS_SIP_CANCEL/INFORMAL_RESPONSE
+1096 00026233 Direction = NETWORK_TO_UE
+1101 00026233 Message ID = IMS_SIP_CANCEL
+1112 00026233 Reason: Q.850;cause= 18;text= "No user responding";sss-internal
+1113 00026233 Content-Length: 0
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03725644_20181126_135743_13
+__CASE NUMBER__: 03725644
+__MESSAGE__:
+		 03:31:42.031                     qipcallh.c    3524  H Sub-ID:2    Ringback expired (St:12) release call id 11 send 486 busy
+		 03:31:42.031                     qipcallh.c    7803  H Sub-ID:2    Releasing audio codec
+__CASE ID__: 5003A00000s6fDa
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: //MO
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+Yes, you are right, MT answer the call and call setup via GERAN, But MO did not receive INVITE 200 OK, MO is waiting for INVITE 200 OK till ringback timer expired, so MO send error.
+
+What is this issue reproduce rate, need network to check if INVITE 200 OK was sent to MO or not
+
+Log info 
+
+//MT
+2018 Oct 25  03:30:43.635  [8F]  0x1544  QMI_MCS_QCSI_PKT
+packetVersion = 2
+MsgType = Request
+Counter = 183
+ServiceId = 9
+MajorRev = 2
+MinorRev = 95
+ConHandle = 0x00000027
+MsgId = 0x00000022
+QmiLength = 4
+Service_VOICE {
+   ServiceVOICEV2 {
+      voice_answer_call {
+         voice_answer_call_reqTlvs[0] {
+            Type = 0x01
+            Length = 1
+            call_id {
+               call_id = 1
+
+//MO
+
+
+ 03:30:56.905, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, RINGING (180), CM Call ID =11
+
+ 03:31:42.031                     qipcallh.c    3524  H Sub-ID:2    Ringback expired (St:12) release call id 11 send 486 busy
+ 03:31:42.031                     qipcallh.c    7803  H Sub-ID:2    Releasing audio codec
+
+thanks
+
+************************************************************
+__NAME__: MSG_03729948_20181126_135743_18
+__CASE NUMBER__: 03729948
+__MESSAGE__:
+		  667 00021529 08:22:01.155                        qpDcm.c   10030  H qpDplProcessSUBSIDInfoEvent - Updated vsid from CM = 299651072 
+__CASE ID__: 5003A00000s6zP6
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer,
+VSID mismatch when LTE capability is getting toggled, possible related to CR#2033844.
+  667 00021529 08:22:01.155                        qpDcm.c   10030  H qpDplProcessSUBSIDInfoEvent - Updated vsid from CM = 299651072 
+
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03751595_20181126_135743_26
+__CASE NUMBER__: 03751595
+__MESSAGE__:
+		[9501/0000/0012]         02:22:51.404             LTE RRC/Low              [       lte_rrc_crp.c    779] CRP: Sent Connection Released Ind2
+		[9501/0002/0012]         02:22:51.404             LTE RRC/High             [       lte_rrc_crp.c    848] CRP: Sent Connection Released Ind to upper layers, extendedWaitTime_r10 02
+		[9501/0002/0009]         02:22:51.404             LTE RRC/High             [       lte_rrc_csp.c  32029] CSP: Release cause is RLF2
+__CASE ID__: 5003A00000sXluf
+__OWNER__: Wei Dong
+__MAIL__: weid
+__OUTPUT__: //彩信结束后，网络没有立即释放RRC连接，到22分53秒的时候，网络向卡1发送的RRC release消息，所以您说的“直到内部timer超时后，本地释放RRC连接”指的是核心网的定时器吧？ 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+
+//彩信结束后，网络没有立即释放RRC连接，到22分53秒的时候，网络向卡1发送的RRC release消息，所以您说的“直到内部timer超时后，本地释放RRC连接”指的是核心网的定时器吧？ 
+==&gt;这里我看错了，是SUB2的RRC连接释放，原因是拿不到TRM资源，RLF。不是我之前认为的那个SUB1的定时器。
+[9501/0000/0012]         02:22:51.404             LTE RRC/Low              [       lte_rrc_crp.c    779] CRP: Sent Connection Released Ind2
+[9501/0002/0012]         02:22:51.404             LTE RRC/High             [       lte_rrc_crp.c    848] CRP: Sent Connection Released Ind to upper layers, extendedWaitTime_r10 02
+[9501/0002/0009]         02:22:51.404             LTE RRC/High             [       lte_rrc_csp.c  32029] CSP: Release cause is RLF2
+
+//在此之前22分51秒的时候卡2接收到了下行的PS page，触发了一个initiate_conn_rel_indi过程先把RRC连接断掉再重新申请SR，建立RRC连接，为什么会这样？也就是说在这之前卡2的RRC 状态是connected，然后又收到了网络的PS paging，是不是可以认为网络那边的RRC连接已经因为之前卡2得不到TRM资源异常终止了，所以终端必须重新再次和网络建立RRC连接和传输信道？ 
+==》确实有可能网络那边已经认为和UE失步，处于空闲态了，所以重新发寻呼，使UE进入连接态。
+
+Thanks
+
+************************************************************
+__NAME__: MSG_03727451_20181126_135743_31
+__CASE NUMBER__: 03727451
+__MESSAGE__:
+		[0051/0001]              MSG                      15:20:41.472             IMS/Medium               [         ICSCore.cpp  10415] ICSCore::is_emergency_call_wlan_to_wwan_ho_allowed op:2, subop:0, ret:02                                                 0
+__CASE ID__: 5003A00000s6osh
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer,
+In the current log, operation mode = 2 (IR.92), sub mode =0(No Submode under IR92), emergency call HO is not allowed.
+if sub mode = 10 which is TELSTRA mode, emergency call HO is allowed.
+
+[0051/0001]              MSG                      15:20:41.472             IMS/Medium               [         ICSCore.cpp  10415] ICSCore::is_emergency_call_wlan_to_wwan_ho_allowed op:2, subop:0, ret:02                                                 0
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03726639_20181126_135743_36
+__CASE NUMBER__: 03726639
+__MESSAGE__:
+		[0000/0003]              MSG                      08:11:24.210             Legacy/Error                                      [ims_qmi_dcm_client.c    365] ims_qmi_dcm_client_error_cb | Posting QC_IMS_DCM_SERVICE_DOWN_IND
+__CASE ID__: 5003A00000s6lVB
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+We found below error, could you please provide APP build or about file to check CR in APP side.
+
+Log info 
+
+[0000/0003]              MSG                      08:11:24.210             Legacy/Error                                      [ims_qmi_dcm_client.c    365] ims_qmi_dcm_client_error_cb | Posting QC_IMS_DCM_SERVICE_DOWN_IND
+
+thanks
+
+************************************************************
+__NAME__: MSG_03756429_20181126_135743_41
+__CASE NUMBER__: 03756429
+__MESSAGE__:
+		[0051/0002] MSG 03:31:32.114 IMS/High [QpDplImsThinClient.cpp   8258] [VTLib] 2219 11420 
+		[0051/0002] MSG 03:31:32.114 IMS/High [QpDplImsThinClient.cpp   8280] [VTLib] 2219 11420 
+__CASE ID__: 5003A00000sYBbd
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+After network upgrade call to VT call, and network send video RTP packet to DUT.
+But there is not VT lib log to check if those video RTP packet play or not.
+
+Log info 
+
+01:47:40.693, Summary:SIP Message, NW--&gt;UE, IMS_SIP_UPDATE, , CM Call ID =10
+
+34	2018/320 01:47:41.762593	2409:801d:21:5::1:40	2409:880d:677:e0d4:f382:9df2:b739:987c	H264	88	PT=DynamicRTP-Type-114, SSRC=0x33481E12, Seq=522, Time=120150 SPS
+
+But there is not VT lib log to check below 
+
+[0051/0002] MSG 03:31:32.114 IMS/High [QpDplImsThinClient.cpp   8258] [VTLib] 2219 11420 
+"[THINCLIENT]RTP QMI_IMSVT_PLAY_START_REQ_V01"     
+[0051/0002] MSG 03:31:32.114 IMS/High [QpDplImsThinClient.cpp   8280] [VTLib] 2219 11420 
+"[THINCLIENT]waiting for s
+urface to start VideoPlay Loop"   
+
+Could you please check if you have enabled IMS debug log
+
+How to enable IMS log
+Android M,N build, please use below command
+adb root
+adb remount
+adb shell setprop persist.ims.disableADBLogs 0
+adb shell setprop persist.ims.disableDebugLogs 0
+adb shell setprop persist.ims.disableQXDMLogs 0
+adb shell setprop persist.ims.disableIMSLogs 0
+adb shell sync
+adb reboot
+Android O build, please use below command
+adb root
+adb wait-for-device
+adb remount
+adb shell setprop persist.vendor.ims.disableADBLogs 0
+adb shell setprop persist.vendor.ims.disableDebugLogs 0
+adb shell setprop persist.vendor.ims.disableQXDMLogs 0
+adb shell setprop persist.vendor.ims.disableIMSLogs 0
+adb logcat -b main -b radio -b system -v threadtime &gt; adblog.txt
+
+thanks
+
+************************************************************
+__NAME__: MSG_03727647_20181126_135743_51
+__CASE NUMBER__: 03727647
+__MESSAGE__:
+		11:58:07.054                        qpDcm.c    8796  L Sub-ID:1    DPL_M#&gt;&gt;#IMS_APP#2#qpDplProcessDSSysEvent-DCM_MSG_SERVING_SYSTEM_CHANGED Notifying pCallBackFunc[d0787edc], iRATMask 4, eINSTID 1
+		11:58:07.765          qpRegisterService.cpp    2632  M Sub-ID:1    RegisterService::DeRegisterEx | Enter m_eRegState=5, PANI success = 0 
+__CASE ID__: 5003A00000s6pXN
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: //  serving RAT changed to 4 -- DCM_RAT_MASK_EDGE
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+DUT A  log, at log start, UE worked at GSM/EDGE, not LTE RAT. For CMCC, only LTE RAT is valid RAT to register IMS, this should be reason why IMS de-register.
+
+Log info
+
+//  serving RAT changed to 4 -- DCM_RAT_MASK_EDGE
+11:58:07.054                        qpDcm.c    8796  L Sub-ID:1    DPL_M#&gt;&gt;#IMS_APP#2#qpDplProcessDSSysEvent-DCM_MSG_SERVING_SYSTEM_CHANGED Notifying pCallBackFunc[d0787edc], iRATMask 4, eINSTID 1
+
+//  DeReg is triggered
+11:58:07.765          qpRegisterService.cpp    2632  M Sub-ID:1    RegisterService::DeRegisterEx | Enter m_eRegState=5, PANI success = 0 
+
+thanks
+
+************************************************************
+__NAME__: MSG_03738777_20181126_135743_64
+__CASE NUMBER__: 03738777
+__MESSAGE__:
+		34996 00172530 02:58:29.150         lte_pdcp_ul_protocol.c    3211  E PDCP UL SDU discarded RB Cfg Index 5 num_discard_sdu 1 discard_sdu_bytes 125
+__CASE ID__: 5003A00000sWpP2
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer,
+It should a big data transfer delay.
+MO send invite at 02:57:54, but MT received at 02:58:22.
+we can find many discard_sdu_bytes in MO side.
+Could you check if reference device is same in the same test? this looks like a NW environment issue.
+
+MO:
+
+  375 00015326 02:57:54.945, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, , CM Call ID =12
+  771 00032137 02:58:04.687, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, SESSION_PROGRESS (183), CM Call ID =12
+  805 00032856 02:58:04.729, Summary:SIP Message, UE--&gt;NW, IMS_SIP_PRACK, , CM Call ID =12
+
+34996 00172530 02:58:29.150         lte_pdcp_ul_protocol.c    3211  E PDCP UL SDU discarded RB Cfg Index 5 num_discard_sdu 1 discard_sdu_bytes 125
+
+
+MT:
+
+  140 00023583 02:58:22.897, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, , CM Call ID =255
+  162 00023690 02:58:22.904, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, TRYING (100), CM Call ID =255
+  184 00023811 02:58:22.920, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, TRYING (100), CM Call ID =255
+  259 00023887 02:58:22.921, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, , CM Call ID =255
+  281 00023980 02:58:22.928, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, TRYING (100), CM Call ID =255
+  356 00024056 02:58:22.929, Summary:SIP Message, NW--&gt;UE, IMS_SIP_INVITE, , CM Call ID =255
+  410 00024293 02:58:22.994, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, SESSION_PROGRESS (183), CM Call ID =12
+ 2429 00027523 02:58:25.009, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, SESSION_PROGRESS (183), CM Call ID =12
+ 7237 00032998 02:58:29.011, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, SESSION_PROGRESS (183), CM Call ID =12
+
+17540 00043736 02:58:37.012, Summary:SIP Message, UE--&gt;NW, IMS_SIP_INVITE, SESSION_PROGRESS (183), CM Call ID =12
+22127 00054546 02:58:40.971, Summary:SIP Message, NW--&gt;UE, IMS_SIP_PRACK, , CM Call ID =12
+
+22152 00054636 02:58:40.993, Summary:SIP Message, UE--&gt;NW, IMS_SIP_PRACK, OK (200), CM Call ID =12
+
+Thanks,
+Haichao
+
+************************************************************
+__NAME__: MSG_03749147_20181126_135743_74
+__CASE NUMBER__: 03749147
+__MESSAGE__:
+		09:14:50.422                     qipcallh.c   15444  H qipcallh_handle_qos_timer_expiry for call id = 11
+		09:14:50.425                     qipcallh.c   15484  H qipcallh_handle_qos_timer_expiry: is_precondition_notified setting true
+__CASE ID__: 5003A00000sXcDO
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+I have analyzed your log, several issue need other team to check. SRVCC is related with LTE AS, GERAN.
+
+1. UE-A dail UE-B and setup video call success, then UE-B call drop, time: 165316591712.
+Network send BYE message to MO and MT with 503, this should be network issue
+
+2. UE-A dail UE-B , when UE-B ring, UE-A call drop, time: 1654
+3. UE-A dail UE-B and setup video call success, move to GSM area, UE-B SRVCC to GSM success, UE-A call drop after SRVCC, time: 1658
+Handover finished, but call did not setup in GERAN side, need GERAN team to check further
+
+Attach happened during the call, this need NAS team to check if attach is expected here 
+
+4. UE-A dail UE-B and setup video call success, move to GSM area, UE-A could not SRVCC to GSM, time: 17061708
+
+DUT did not receive handover command, this need LTE AS team to check further
+
+5. UE-A dail UE-B, but setup VOLTE call(not video call), time: 17141719
+
+This should be network issue, network did not configure video dedicated bear, and cause 6s Qos timer expired. UE downgrade VT call to VOLTE
+
+Log info 
+
+09:14:50.422                     qipcallh.c   15444  H qipcallh_handle_qos_timer_expiry for call id = 11
+09:14:50.425                     qipcallh.c   15484  H qipcallh_handle_qos_timer_expiry: is_precondition_notified setting true
+
+6. UE-A dail UE-B and setup video call success, move to GSM area, UE-A could not SRVCC to GSM and call drop, time: 1720
+
+DUT did not receive network handover command, this need LTE AS team to check further
+
+thanks
+
+************************************************************
+__NAME__: MSG_03736164_20181126_135743_84
+__CASE NUMBER__: 03736164
+__MESSAGE__:
+		[0005/0002]              MSG                      06:10:30.806             Call Manager/High        [           cmpmprx.c   5160] =CM= AS_ID 0, MSGR RXD: volte_state_chgd: 1-&gt;0, dds 0, current rat_cap 0x208, internal_standby_pref 1
+__CASE ID__: 5003A00000s7SCk
+__OWNER__: Liang Xue
+__MAIL__: xliang
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+HI liang,
+    Due to CM receive volte disable MSGR and not found enable it to log end.
+
+[0005/0002]              MSG                      06:10:30.806             Call Manager/High        [           cmpmprx.c   5160] =CM= AS_ID 0, MSGR RXD: volte_state_chgd: 1-&gt;0, dds 0, current rat_cap 0x208, internal_standby_pref 1
+
+
+
+TKS!
+Bingqing
+
+************************************************************
+__NAME__: MSG_03734486_20181126_135743_97
+__CASE NUMBER__: 03734486
+__MESSAGE__:
+		09:40:20.334    IMSSupplementaryService.cpp    5218  H Sub-ID:1	RegCMCallback Call Back Registered and Running Status Set
+__CASE ID__: 5003A00000s7IUO
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+I found RegCMCallback Call Back Registered, could you please check if UT is disabled in your MBN
+Which MBN do you use, CU MBN?
+
+NV 73833 UtEnabled
+
+Log info
+
+09:40:20.334    IMSSupplementaryService.cpp    5218  H Sub-ID:1	RegCMCallback Call Back Registered and Running Status Set
+
+thanks
+
+************************************************************
+__NAME__: MSG_03761709_20181126_135744_02
+__CASE NUMBER__: 03761709
+__MESSAGE__:
+		00017554 07:15:17.680            lte_rrc_cap_debug.c     661  H Sub-ID:1	CA_RLF_DBG: CA Combo: 41A2A(20MHz)-39A2(20/15/10MHz) , Advertized, Status: RF Original.                                                   
+		00017555 07:15:17.680            lte_rrc_cap_debug.c     661  H Sub-ID:1	CA_RLF_DBG: CA Combo: 41A2(20MHz)-39A2A(20/15/10MHz) , Advertized, Status: RF Original.
+__CASE ID__: 5003A00000sYXUz
+__OWNER__: Wei Dong
+__MAIL__: weid
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear Customer,
+
+应该没有了， B39可以是 20/15/10.
+00017554 07:15:17.680            lte_rrc_cap_debug.c     661  H Sub-ID:1	CA_RLF_DBG: CA Combo: 41A2A(20MHz)-39A2(20/15/10MHz) , Advertized, Status: RF Original.                                                   
+00017555 07:15:17.680            lte_rrc_cap_debug.c     661  H Sub-ID:1	CA_RLF_DBG: CA Combo: 41A2(20MHz)-39A2A(20/15/10MHz) , Advertized, Status: RF Original.
+至于其他的band组合可以参考36.101.
+
+Thanks
+
+************************************************************
+__NAME__: MSG_03763599_20181126_135744_07
+__CASE NUMBER__: 03763599
+__MESSAGE__:
+		[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1427] Domain name FQDN = xcap.ims.mnc001.mcc530.pub.3gppnetwork.org
+		[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1440] Domain name mismatch idr = 203.109.141.8 and Cert ALTName =xcap.ims.mnc001.mcc530.pub.3gppnetwork.org
+		[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1427] Domain name FQDN = bsf.ims.mnc001.mcc530.pub.3gppnetwork.org
+		[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1440] Domain name mismatch idr = 203.109.141.8 and Cert ALTName =bsf.ims.mnc001.mcc530.pub.3gppnetwork.org
+		[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1427] Domain name FQDN = bsf.mnc001.mcc530.pub.3gppnetwork.org
+		[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1440] Domain name mismatch idr = 203.109.141.8 and Cert ALTName =bsf.mnc001.mcc530.pub.3gppnetwork.org
+		[5502/0001]              03:00:17.145             Security/Secure Sockets Layer/MediumMSG                      [         secsslasn.c   1571] Exit: secx509_verify_subj_alt_name_certificate with Err=1
+		[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c    986] SSLASN: Subject Alt Names did not match ServerURL.
+		[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   1689] SSL: Processing error in svr cert list
+		[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   1692] SSL: _errno is 0, security_alert_mask is 0x200
+		[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   7254] ++++++++ SSL session handshake aborted ++++++++
+		[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   7256] Last errno 0 (l. 1697) in ses 0xd17753a0
+		[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   7297] SSL: Bad client side state
+__CASE ID__: 5003A00000sYg5a
+__OWNER__: Liang Xue
+__MAIL__: xliang
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Yongyan
+
+Issue is due to 'SSLASN: Subject Alt Names did not match ServerURL'
+
+[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1427] Domain name FQDN = xcap.ims.mnc001.mcc530.pub.3gppnetwork.org
+[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1440] Domain name mismatch idr = 203.109.141.8 and Cert ALTName =xcap.ims.mnc001.mcc530.pub.3gppnetwork.org
+[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1427] Domain name FQDN = bsf.ims.mnc001.mcc530.pub.3gppnetwork.org
+[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1440] Domain name mismatch idr = 203.109.141.8 and Cert ALTName =bsf.ims.mnc001.mcc530.pub.3gppnetwork.org
+[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1427] Domain name FQDN = bsf.mnc001.mcc530.pub.3gppnetwork.org
+[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c   1440] Domain name mismatch idr = 203.109.141.8 and Cert ALTName =bsf.mnc001.mcc530.pub.3gppnetwork.org
+[5502/0001]              03:00:17.145             Security/Secure Sockets Layer/MediumMSG                      [         secsslasn.c   1571] Exit: secx509_verify_subj_alt_name_certificate with Err=1
+[5502/0002]              03:00:17.145             Security/Secure Sockets Layer/HighMSG                      [         secsslasn.c    986] SSLASN: Subject Alt Names did not match ServerURL.
+[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   1689] SSL: Processing error in svr cert list
+[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   1692] SSL: _errno is 0, security_alert_mask is 0x200
+[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   7254] ++++++++ SSL session handshake aborted ++++++++
+[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   7256] Last errno 0 (l. 1697) in ses 0xd17753a0
+[5502/0003]              03:00:17.145             Security/Secure Sockets Layer/ErrorMSG                      [         secsslhsp.c   7297] SSL: Bad client side state
+
+
+Is Ref phone also QC chipset?
+
+I will check internally for this issue.
+
+
+
+Thanks
+Jing
+
+************************************************************
+__NAME__: MSG_03752700_20181126_135744_18
+__CASE NUMBER__: 03752700
+__MESSAGE__:
+		07:38:38.202    IMSSupplementaryService.cpp    4803  H IMSSupplementaryService::DeRegCMCallback Call Back Un-Registered
+		07:38:38.202                qpDplCallCtrl.c   10868  M qpDplCallCtrlDeRegSUPPSrvCB: Entry
+		07:38:38.475    IMSSupplementaryService.cpp     956  M IMSSupplementaryService::update Event type: 4
+		07:38:38.475    IMSSupplementaryService.cpp    1054  M IMSSupplementaryService::Update RAT Change Event IsValidRAT[1]
+		07:38:38.476                 PDPHandler.cpp     903  M CPDPHandler ===== GetRAT bQueryServingSystem-0 m_eCurrentRAT-10, PDNTYPE[1] 
+		07:38:38.476                qpDplCallCtrl.c   10687  M qpDplCallCtrlRegSUPPSrvCB: Entry
+__CASE ID__: 5003A00000sXtGZ
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+UT service is related with qpDplCallCtrlRegSUPPSrvCB and DeRegCMCallback, regsiter callback or deregister callback was triggered by EventChangeRat 
+
+In your log, LTE RAT should be not stable
+If no IMS issue left, kindly close this case
+
+Log info
+
+07:38:34.472                 PDPManager.cpp    2377  H GetPreferredRAT Preferred RAT 0
+07:38:34.472                 PDPManager.cpp    1071  H EventChangeRat -Current RAT 14 New Rat 0 ProceedIfRatsSame 0
+07:38:34.472                 PDPManager.cpp    1094  H EventChangeRat - ServiceOnRatMask = 0x00000400, new RAT mask = 0x00000001: 
+07:38:34.472                 PDPManager.cpp    1095  H EventChangeRat - New RAT is 0 and is valid: 0
+
+07:38:38.202    IMSSupplementaryService.cpp    4803  H IMSSupplementaryService::DeRegCMCallback Call Back Un-Registered
+07:38:38.202                qpDplCallCtrl.c   10868  M qpDplCallCtrlDeRegSUPPSrvCB: Entry
+
+07:38:38.475    IMSSupplementaryService.cpp     956  M IMSSupplementaryService::update Event type: 4
+07:38:38.475    IMSSupplementaryService.cpp    1054  M IMSSupplementaryService::Update RAT Change Event IsValidRAT[1]
+07:38:38.476                 PDPHandler.cpp     903  M CPDPHandler ===== GetRAT bQueryServingSystem-0 m_eCurrentRAT-10, PDNTYPE[1] 
+07:38:38.476                qpDplCallCtrl.c   10687  M qpDplCallCtrlRegSUPPSrvCB: Entry
+
+thanks
+
+************************************************************
+__NAME__: MSG_03752700_20181126_135744_17
+__CASE NUMBER__: 03752700
+__MESSAGE__:
+		07:38:34.472                 PDPManager.cpp    2377  H GetPreferredRAT Preferred RAT 0
+		07:38:34.472                 PDPManager.cpp    1071  H EventChangeRat -Current RAT 14 New Rat 0 ProceedIfRatsSame 0
+		07:38:34.472                 PDPManager.cpp    1094  H EventChangeRat - ServiceOnRatMask = 0x00000400, new RAT mask = 0x00000001: 
+		07:38:34.472                 PDPManager.cpp    1095  H EventChangeRat - New RAT is 0 and is valid: 0
+__CASE ID__: 5003A00000sXtGZ
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+UT service is related with qpDplCallCtrlRegSUPPSrvCB and DeRegCMCallback, regsiter callback or deregister callback was triggered by EventChangeRat 
+
+In your log, LTE RAT should be not stable
+If no IMS issue left, kindly close this case
+
+Log info
+
+07:38:34.472                 PDPManager.cpp    2377  H GetPreferredRAT Preferred RAT 0
+07:38:34.472                 PDPManager.cpp    1071  H EventChangeRat -Current RAT 14 New Rat 0 ProceedIfRatsSame 0
+07:38:34.472                 PDPManager.cpp    1094  H EventChangeRat - ServiceOnRatMask = 0x00000400, new RAT mask = 0x00000001: 
+07:38:34.472                 PDPManager.cpp    1095  H EventChangeRat - New RAT is 0 and is valid: 0
+
+07:38:38.202    IMSSupplementaryService.cpp    4803  H IMSSupplementaryService::DeRegCMCallback Call Back Un-Registered
+07:38:38.202                qpDplCallCtrl.c   10868  M qpDplCallCtrlDeRegSUPPSrvCB: Entry
+
+07:38:38.475    IMSSupplementaryService.cpp     956  M IMSSupplementaryService::update Event type: 4
+07:38:38.475    IMSSupplementaryService.cpp    1054  M IMSSupplementaryService::Update RAT Change Event IsValidRAT[1]
+07:38:38.476                 PDPHandler.cpp     903  M CPDPHandler ===== GetRAT bQueryServingSystem-0 m_eCurrentRAT-10, PDNTYPE[1] 
+07:38:38.476                qpDplCallCtrl.c   10687  M qpDplCallCtrlRegSUPPSrvCB: Entry
+
+thanks
+
+************************************************************
+__NAME__: MSG_03752443_20181126_135744_31
+__CASE NUMBER__: 03752443
+__MESSAGE__:
+		05:59:49.390             1                        [ RegisterManager.cpp   5188] EventChangeRat: permanently blocked due to IM service disabled or m_bIMSDisabledInRoaming 0 or VoLTEoff
+		05:59:49.391             1                        [    ISMCMAdapter.cpp    309] informLTERegStatus: registered status = 0, domain set to = 9, serving system = 9, endcause = 2 
+__CASE ID__: 5003A00000sXsT7
+__OWNER__: Haichao Song
+__MAIL__: haichaos
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Hi haichao,
+  I mean,  IMS should not reports temp reg fail to CM when CU volte disable.
+
+05:59:49.390             1                        [ RegisterManager.cpp   5188] EventChangeRat: permanently blocked due to IM service disabled or m_bIMSDisabledInRoaming 0 or VoLTEoff
+05:59:49.391             1                        [    ISMCMAdapter.cpp    309] informLTERegStatus: registered status = 0, domain set to = 9, serving system = 9, endcause = 2 
+
+
+TKS!
+Bingqing
+
+************************************************************
+__NAME__: MSG_03728233_20181126_135744_39
+__CASE NUMBER__: 03728233
+__MESSAGE__:
+		07:52:34.511          qvp_rtp_app_cmd_svs.c   11054  E rtp_link_alive_timer: Failed T_current=20027988 T_last=20017964 rtp_link_alive_time=10000
+__CASE ID__: 5003A00000s6qXJ
+__OWNER__: Liying Han
+__MAIL__: liyingh
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Dear customer
+
+In the log, RTP timer is 10s, please check again
+
+07:52:34.511          qvp_rtp_app_cmd_svs.c   11054  E rtp_link_alive_timer: Failed T_current=20027988 T_last=20017964 rtp_link_alive_time=10000
+
+thanks
+
+************************************************************
+__NAME__: MSG_03754698_20181126_135744_45
+__CASE NUMBER__: 03754698
+__MESSAGE__:
+		[3007/0001/0002/0003/0004]MSG                      03:16:42.257             NAS MM/Medium            [            mmsend.c   1867] DS: SUB 1 =MM= equiv PLMN-0 	 5 32 51
+		[3007/0001/0002/0003/0004]MSG                      03:16:42.257             NAS MM/Medium            [            mmsend.c   1867] DS: SUB 1 =MM= equiv PLMN-1 	 5 f2 11 
+		03:16:42.567   reg_nv.c    587] DS: SUB 1 =REG= Equivalent PLMN list (length = 0) 
+__CASE ID__: 5003A00000sY2Fh
+__OWNER__: Shuang Wang
+__MAIL__: shuangw
+__OUTPUT__: 
+__ACCEPT__: Yes
+__COMMENTS__:
+Hi,Huan:
+
+这个 问题 很 triky.  root cause 是 DUT  LAU accept 比 RAU accept 到达UE 的慢 300ms左右
+LAU accept  里不带 equivalent PLMNs ，根据 协议， nas 把EPLMN list 清除掉。
+REF 是 先收到 LAU accept 再收到 RAU accept， RAU accept 里有equivalent PLMNs
+
+
+The Mobile Equipment stores a list of "equivalent PLMNs". 
+This list is replaced or deleted at the end of each location update procedure, routing area update procedure, GPRS attach procedure, tracking area update procedure and EPS attach procedure
+
+
+DUT:
+2018 Nov 13  03:16:42.256  [B9]  0x713A  UMTS UE OTA  --  GMM_ROUTING_AREA_UPDATE_ACCEPT
+Subscription ID = 1
+Message Direction = To UE
+chan_type = 0 (0x0)
+prot_disc_check = 8 (0x8)
+trans_id_or_skip_ind = 0 (0x0)
+prot_disc = 8 (0x8) (GSM_GMM_MESSAGES)
+msg_type = 9 (0x9)
+
+      equiv_plmns
+        num_codes = 2 (0x2)
+        codes[0]
+          mcc_1 = 5 (0x5)
+          mcc_2 = 0 (0x0)
+          mcc_3 = 2 (0x2)
+          mnc_3 = 3 (0x3)
+          mnc_1 = 1 (0x1)
+          mnc_2 = 5 (0x5)
+        codes[1]
+          mcc_1 = 5 (0x5)
+          mcc_2 = 0 (0x0)
+          mcc_3 = 2 (0x2)
+          mnc_3 = 15 (0xf)
+          mnc_1 = 1 (0x1)
+          mnc_2 = 1 (0x1)
+
+[3007/0001/0002/0003/0004]MSG                      03:16:42.257             NAS MM/Medium            [            mmsend.c   1867] DS: SUB 1 =MM= equiv PLMN-0 	 5 32 51
+[3007/0001/0002/0003/0004]MSG                      03:16:42.257             NAS MM/Medium            [            mmsend.c   1867] DS: SUB 1 =MM= equiv PLMN-1 	 5 f2 11 
+
+
+//no EPLMN list
+2018 Nov 13  03:16:42.566  [D8]  0x713A  UMTS UE OTA  --  LOCATION_UPDATE_ACCEPT
+Subscription ID = 1
+Message Direction = To UE
+chan_type = 0 (0x0)
+prot_disc_check = 5 (0x5)
+trans_id_or_skip_ind = 0 (0x0)
+prot_disc = 5 (0x5) (GSM_MOB_MANAGEMENT)
+
+msg_type = 2 (0x2)
+prot
+  mob_man_prot
+    LOCATION_UPDATE_ACCEPT
+      loc_area_ident
+        mcc_1 = 5 (0x5)
+        mcc_2 = 0 (0x0)
+        mcc_3 = 2 (0x2)
+        mnc_3 = 15 (0xf)
+        mnc_1 = 1 (0x1)
+        mnc_2 = 9 (0x9)
+        loc_area_code = 1331 (0x533)
+      mob_ident_incl = 0 (0x0)
+      follow_on_proceed_incl = 0 (0x0)
+      cts_permission_incl = 0 (0x0)
+      equiv_plmns_incl = 0 (0x0)
+      emer_num_list_incl = 0 (0x0)
+      per_ms_t3212_incl = 0 (0x0)
+
+
+03:16:42.567   reg_nv.c    587] DS: SUB 1 =REG= Equivalent PLMN list (length = 0) 
+
+
+REF:
+2018 Nov 13  03:16:35.155  [51]  0x713A  UMTS UE OTA  --  LOCATION_UPDATE_ACCEPT
+Message Direction = To UE
+
+
+2018 Nov 13  03:16:35.467  [70]  0x713A  UMTS UE OTA  --  GMM_ROUTING_AREA_UPDATE_ACCEPT
+Message Direction = To UE
+chan_type = 0 (0x0)
+prot_disc_check = 8 (0x8)
+trans_id_or_skip_ind = 0 (0x0)
+prot_disc = 8 (0x8) (GSM_GMM_MESSAGES)
+
+Thanks
+Shuang
+
+************************************************************

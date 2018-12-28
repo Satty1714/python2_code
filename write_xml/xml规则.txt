@@ -1,0 +1,96 @@
+规则有主次之分
+******************* 规则1： ******************* 
+    以下规则以and组织
+    1.1 line中有“14:30:24.285”结构并且前后字符都是空格
+    1.2 line中从开头第一个字符开始有“2018 Jun 19”结构
+    1.3 line中有“0xyyyy”结构如：0xB0C0 
+    1.4 该line以后的每一行都是一个“\t”开头
+    1.5 message_list=[从该line行开始:从该line行开始，以后的第一个空格行]
+    1.6 message_list 就是该xml的message信息
+实例如下：
+2018 Jun 19  14:30:24.285  [C9]  0xB0C0  LTE RRC OTA Packet  --  BCCH_DL_SCH / SystemInformationBlockType1
+    Pkt Version = 19
+    RRC Release Number.Major.minor = 14.2.2
+    Radio Bearer ID = 0, Physical Cell ID = 376
+    Freq = 1350
+
+fdslfdsf dsfdsifdsgsd fiewpnwns fpdg
+########### 结果： ###########
+2018 Jun 19  14:30:24.285  [C9]  0xB0C0  LTE RRC OTA Packet  --  BCCH_DL_SCH / SystemInformationBlockType1
+    Pkt Version = 19
+    RRC Release Number.Major.minor = 14.2.2
+    Radio Bearer ID = 0, Physical Cell ID = 376
+    Freq = 1350
+    
+**************************************************************************************************
+******************* 规则1另一种： ******************* 
+    以下规则以and组织
+    1.1 line中有“14:30:24.285”结构并且前后字符都是空格
+    1.2 line中从开头第一个字符开始有“2018 Jun 19”结构
+    1.3 line中有“0xyyyy”结构如：0xB0C0 
+    1.4 该line以后的第一行如果不是以“\t”开头则只获得line为message信息
+实例如下：
+2018 Jun 19  14:30:25.006  [DF]  0x1FFB  Event  --  EVENT_LTE_RRC_SIB_READ_FAILURE
+14:30:25.006 Event  0 : EVENT_LTE_RRC_SIB_READ_FAILURE (ID=1619)  Payload = 0x46 05 78 01 2F 00 
+########### 结果： ###########
+2018 Jun 19  14:30:25.006  [DF]  0x1FFB  Event  --  EVENT_LTE_RRC_SIB_READ_FAILURE
+**************************************************************************************************
+******************* 规则2 ： ******************* 
+    line中以“14:30:24.285”该结构开头并且其下一个字符是空格
+    获得的该line就是xml的message信息
+实例如下：
+2018 Jun 19  14:30:25.006  [DF]  0x1FFB  Event  --  EVENT_LTE_RRC_SIB_READ_FAILURE
+14:30:25.006 Event  0 : EVENT_LTE_RRC_SIB_READ_FAILURE (ID=1619)  Payload = 0x46 05 78 01 2F 00 
+2018 Jun 19  14:30:25.006  [DF]  0x1FFB  Event  --  EVENT_LTE_RRC_SIB_READ_FAILURE
+########### 结果： ###########
+14:30:25.006 Event  0 : EVENT_LTE_RRC_SIB_READ_FAILURE (ID=1619)  Payload = 0x46 05 78 01 2F 00 
+**************************************************************************************************
+******************* 规则3： ******************* 
+    规则以and组织
+    3.1 line中存在“14:30:24.285”结构并且前后字符都是空格
+    3.2 line中不是“2018 Jun 19”结构开头
+    3.3 取该line行的“14:30:24.285”结构之后的所有数据（去除收尾空格），获得信息就是xml的message信息
+    
+实例如下：
+[6052/0002]              MSG                      07:02:09.155             IMS DPL/High             [[IMS_DataD] qpdplCnERoutingNotifier.cpp    333] | 1384 |qpdplSetupCNERoute..bringup returned 0
+########### 结果： ###########
+07:02:09.155             IMS DPL/High             [[IMS_DataD] qpdplCnERoutingNotifier.cpp    333] | 1384 |qpdplSetupCNERoute..bringup returned 0
+**************************************************************************************************
+******************* 规则4： ******************* 
+    以下规则以and组织
+    4.1 line中以“14:30:24.285”该结构开头并且其下一个字符是空格
+    4.2 该line以后的每一行都是一个“\t”开头
+    4.3 获得数据message_list=[line:line以后的第一个空行结束]
+实例如下：
+14:30:25.006 Event  0 : EVENT_LTE_RRC_SIB_READ_FAILURE (ID=1619)  Payload = 0x46 05 78 01 2F 00 
+    Payload String = Frequency = 1350, Cell ID = 376, Rxed SIBs Mask = 0x002f
+
+
+14:30:25.006             LTE RRC/High  
+########### 结果： ###########
+14:30:25.006 Event  0 : EVENT_LTE_RRC_SIB_READ_FAILURE (ID=1619)  Payload = 0x46 05 78 01 2F 00 
+    Payload String = Frequency = 1350, Cell ID = 376, Rxed SIBs Mask = 0x002f
+    
+    
+    
+    
+/////////////////////////////////////////////////////
+if 先找时间戳
+    if line行【0】开始日期戳
+        line 全要
+    else:
+        时间戳之后内容全要
+else:
+    pass
+    
+    
+str.index("fiandall[0]")
+
+for line in lines:
+    if 先找时间戳
+        if line行【0】开始日期戳
+            line 全要
+        else:
+            时间戳之后内容全要
+    else:
+        pass
